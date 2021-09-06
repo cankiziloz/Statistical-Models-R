@@ -28,7 +28,7 @@ cor(x= iris$Petal.Length,
     y = iris$Petal.Width)
 
 #Predicting new values according to the model 
-#This function predicts the petal width values for the given values relatively
+#This function predicts the petal width values for the given petal length values relatively
 predict(
   object = model,
   newdata = data.frame(
